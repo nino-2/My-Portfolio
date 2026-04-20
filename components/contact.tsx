@@ -162,8 +162,8 @@ export default function Contact() {
                   <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center mb-4">
                     <CheckCircle size={28} className="text-white" />
                   </div>
-                  <h3 className="text-xl font-bold dark:text-white text-[#040281] mb-2">Message Sent!</h3>
-                  <p className="dark:text-white/60 text-slate-500 text-sm mb-6">
+                  <h3 className="text-xl font-bold dark:text-[#040281] text-[#040281] mb-2">Message Sent!</h3>
+                  <p className="dark:text-slate-500 text-slate-500 text-sm mb-6">
                     Thanks for reaching out. I'll get back to you within 24 hours.
                   </p>
                   <button

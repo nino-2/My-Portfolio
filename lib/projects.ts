@@ -25,7 +25,7 @@ export const projects: Project[] = [
     fullDescription: 'Mapoly Smart Clinic Assistant is a full stack web application built to solve a real problem on campus. Students were spending too much time waiting at the clinic for things that could be handled digitally. This project brought the clinic experience online with an AI assistant, appointment booking, and a clean admin dashboard for managing patient records.',
     problem: 'The school clinic had one bottleneck that affected everyone: long queues. Students had no way to book ahead, check their status or get quick answers about their health concerns without physically showing up. Time was being wasted on both sides.',
     solution: 'Built a web app where students can chat with an AI assistant for quick health guidance, book appointments without joining a queue and receive notifications when their slot is confirmed. On the admin side, clinic staff get a full dashboard to manage patient records and track appointments in one place. The goal was simple: less waiting, better care.',
-    tools: ['React', 'Node.js', 'MongoDB', 'Tailwind CSS', 'Geminis AI API'],
+    tools: ['React', 'Node.js', 'MongoDB', 'Tailwind CSS', 'Gemini AI API'],
     image: '/mapoly-cover.JPG',
     liveUrl: 'https://smartclinic-react-hu19.vercel.app/',
     githubUrl: 'https://github.com/nino-2/smartclinic-react',
