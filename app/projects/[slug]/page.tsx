@@ -118,7 +118,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
                 {project.tools.map((tool) => (
                   <span
                     key={tool}
-                    className="text-sm px-3 py-1.5 rounded-full dark:bg-white/5 bg-white dark:text-white/80 text-slate-700 border dark:border-white/10 border-slate-200"
+                    className="text-sm px-3 py-1.5 rounded-full dark:bg-white/5 bg-white dark:text-slate-700 text-slate-700 border dark:border-slate-200 border-slate-200"
                   >
                     {tool}
                   </span>

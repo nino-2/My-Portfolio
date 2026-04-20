@@ -17,8 +17,8 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    slug: 'mapoly clinic',
-    title: 'Mapoly Smartclinic',
+    slug: 'mapoly',
+    title: 'Mapoly',
     category: 'development',
     categoryLabel: 'Healthcare',
     description: 'A smart clinic web app that cuts queues and puts student healthcare one click away.',

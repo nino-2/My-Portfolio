@@ -45,7 +45,7 @@ export default function About() {
                 <span className="text-white/80 text-xs text-center leading-tight mt-1">Years<br/>Experience</span>
               </div>
               <div className="absolute -top-5 -left-5 w-24 h-24 rounded-2xl dark:bg-[#0d1040]/80 bg-white border dark:border-[#00BFFF]/20 border-[#040281]/10 flex flex-col items-center justify-center shadow-lg">
-                <span className="font-bold text-2xl dark:text-white text-[#040281]">15+</span>
+                <span className="font-bold text-2xl dark:text-white text-[#040281]">20+</span>
                 <span className="dark:text-white/60 text-slate-500 text-xs text-center leading-tight mt-1">Projects<br/>Delivered</span>
               </div>
             </div>
@@ -101,7 +101,7 @@ export default function About() {
             <ScrollAnimation delay={0.5}>
               <div className="flex gap-6">
                 <div className="text-center">
-                  <div className="text-3xl font-extrabold dark:text-white text-[#040281]">15+</div>
+                  <div className="text-3xl font-extrabold dark:text-white text-[#040281]">20+</div>
                   <div className="text-sm dark:text-white/50 text-slate-500 mt-1">Projects</div>
                 </div>
                 <div className="w-px dark:bg-white/10 bg-slate-200" />
