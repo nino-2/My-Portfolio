@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { Github, Linkedin, Instagram, Twitter, ArrowUp } from 'lucide-react';
 import { motion } from 'framer-motion';
 
@@ -31,9 +32,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-12">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-[#040281] to-[#00BFFF] flex items-center justify-center">
-                <span className="text-white font-bold text-lg">N</span>
-              </div>
+              <Image
+                src="/ninotech-logo.webp"
+                alt="Nino Technologies Logo"
+                width={36}
+                height={36} />
               <span className="font-bold text-base dark:text-white text-[#040281]">Nino Technologies</span>
             </div>
             <p className="text-sm dark:text-white/50 text-slate-500 leading-relaxed max-w-xs">
