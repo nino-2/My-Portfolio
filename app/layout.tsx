@@ -1,8 +1,3 @@
-declare module '*.css' {
-  const classes: { [className: string]: string };
-  export default classes;
-}
-
 // @ts-ignore: Global stylesheet import handled by Next.js
 import './globals.css';
 import type { Metadata } from 'next';
