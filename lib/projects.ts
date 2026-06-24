@@ -16,6 +16,21 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+    {
+    slug: 'eventflow',
+    title: 'EventFlow',
+    category: 'development',
+    categoryLabel: 'Event Management',
+    description: 'An event management platform that gets you from idea to live event page in 60 seconds.',
+    fullDescription: 'EventFlow is a web application built for anyone who has ever tried to organise an event using WhatsApp messages, Google Forms and a prayer. It gives organisers one clean place to create, manage and share events without the usual back and forth. No credit card required to start, no complicated setup and automated reminders so attendees actually show up.',
+    problem: 'Organising events online in Nigeria and across Africa is messier than it needs to be. Most people rely on a combination of WhatsApp broadcasts, flyers on Instagram and manually chasing confirmations. The tools that exist are either too expensive, too bloated or built for markets that do not reflect how events are actually run here.',
+    solution: 'Built a full stack event platform with a clean public event listing page, a secure authentication system and a full admin dashboard that gives organisers visibility over every event and every attendee in one place. Smart filtering lets you sort upcoming and past events instantly. Automated reminders handle the follow up so the organiser does not have to. The whole thing was built mobile first because that is where the users are.',
+    tools: ['Next.js', 'Node.js', 'MongoDB', 'Tailwind CSS'],
+    image: '/eventflow_cover.JPG',
+    liveUrl: 'https://eventflow-website.vercel.app',
+    githubUrl: 'https://github.com/nino-2/eventflow',
+    featured: true,
+  },
   {
     slug: 'mapoly',
     title: 'Mapoly',
@@ -29,6 +44,21 @@ export const projects: Project[] = [
     image: '/mapoly-cover.JPG',
     liveUrl: 'https://smartclinic-react-hu19.vercel.app/',
     githubUrl: 'https://github.com/nino-2/smartclinic-react',
+    featured: true,
+  },
+  {
+    slug: 'jumia',
+    title: 'Jumia',
+    category: 'development',
+    categoryLabel: 'E-commerce',
+    description: 'A full clone of Jumia built from scratch with real cart logic, product listings and user authentication.',
+    fullDescription: "This is a full stack clone of Jumia, Africa's largest e-commerce platform. Not a UI copy and paste, but a working application with real authentication, a functional shopping cart and dynamic product listings pulled from a backend I built. The goal was to understand how a large scale e-commerce platform actually works under the hood by building every layer of it myself.",
+    problem: 'Most developers claim they can build e-commerce. Few have actually sat down and built one end to end, the auth flow, the cart state, the product schema, the API connections and the UI all talking to each other properly. This project was a deliberate challenge to prove I could.',
+    solution: 'Built the entire application on the MERN stack. The frontend handles dynamic product rendering, real time cart updates and user sessions without a single page reload. The backend manages authentication, business logic and data flow through REST APIs I wrote and consumed myself. MongoDB handles the product and user data with schemas designed for scale. The result is a fully working e-commerce application that behaves exactly like the real thing.',
+    tools: ['React', 'Node.js', 'MongoDB', ' CSS', 'Express.js'],
+    image: '/jumiaclone_cover.JPG',
+    liveUrl: 'https://react-jumia-app.vercel.app/',
+    githubUrl: 'https://github.com/nino-2/react-jumia-app',
     featured: true,
   },
   {

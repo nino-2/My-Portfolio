@@ -4,8 +4,8 @@ import About from '@/components/about';
 import ProjectsSection from '@/components/projects-section';
 import DesignPortfolio from '@/components/design-portfolio';
 import Experience from '@/components/experience';
-import Contact from '@/components/contact';
 import Footer from '@/components/footer';
+import Contact from '@/components/contact';
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
         <ProjectsSection />
         <DesignPortfolio />
         <Experience />
-        <Contact />
+        <Contact/>
       </main>
       <Footer />
     </>
